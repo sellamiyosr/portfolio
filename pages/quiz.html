@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yosr Sellami</title>
+    <link rel="icon" type="image/x-icon" href="images/profile.png">
+    <!----------- CSS Files ----------->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colors/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="../css/colors/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="../css/colors/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="../css/colors/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="../css/colors/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+    <!------------------ Main Container Start ------------------------------------------------------------------------------->
+    <div class="main-container">
+
+        <!------- Aside Start -->
+        <div class="aside">
+            <div class="logo">
+                <a href="#"><span>Y</span>osr</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+             
+                <li><a href="../index.html"  ><i class="fa fa-home"></i>Acceuil</a></li>
+                <li><a href="../pages/about.html"><i class="fa fa-user"></i>A propos de moi</a></li>
+                <li><a href="../pages/formations.html"><i class="fa fa-user"></i>Formations</a></li>
+                <li><a href="../pages/competence.html"><i class="fa fa-list"></i>Compétences </a></li>
+                <li><a href="../pages/experience.html"><i class="fa fa-briefcase"></i>Experience</a></li>
+                <li><a href="../pages/certif.html"><i class="fa fa-comments"></i>Vie Associative</a></li>
+                <li><a href="../pages/quiz.html" class="active"><i class="fa fa-list"></i>Quiz</a></li>
+                <li><a href="../pages/contact.html"><i class="fa fa-briefcase"></i>Contact</a></li>
+                <li><a href="../pages/iit.html"><i class="fa fa-comments"></i>IIT</a></li>
+                <li ><a href="https://github.com/sellamiyosr" target="_blank" ><i class="fa-brands fa-github"></i> GitHub </a> </li>
+                <li><a href="https://www.linkedin.com/in/yosr-sellami/" target="_blank" ><i class="fa-brands fa-linkedin-in" ></i> LinkedIn</a></li>
+            </ul>
+            
+        </div>
+        <!------- Aside End -->
+
+
+        <!------------------ Main Content Start ---------------------------------->
+        <div class="main-content">
+
+    
+            <!------------- Quiz Section Start ------------------>
+            <section class="quiz section" id="quiz">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Quiz</h2>
+                        </div>
+                    </div>
+                    <!-- Quiz Form -->
+                    <div class="row">
+                        <div class="quiz-form padd-15" id="form1">
+                            <h4 class="quiz-sub-title padd-15">HTML</h4>
+                            <h3 class="quiz-title padd-15">1. Quelle est la balise utilisée pour créer un lien
+                                hypertexte ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> link </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> a </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> href</h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> url</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form1')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="quiz-form padd-15" id="form2">
+                            <h4 class="quiz-sub-title padd-15">HTML</h4>
+                            <h3 class="quiz-title padd-15">2. Quelle balise est utilisée pour insérer une image dans une
+                                page web ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> image </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> pic </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> img </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> src </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form2')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form3">
+                            <h4 class="quiz-sub-title padd-15">HTML</h4>
+                            <h3 class="quiz-title padd-15">3. Quelle balise HTML définit le titre principal d'une page ?
+                            </h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> head </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> title </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> h1 </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> header </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form3')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form4">
+                            <h4 class="quiz-sub-title padd-15">HTML</h4>
+                            <h3 class="quiz-title padd-15">4. Quelle balise est utilisée pour définir une liste non
+                                ordonnée en HTML ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> ul </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> ol </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> li </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> list </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form4')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form5">
+                            <h4 class="quiz-sub-title padd-15">CSS</h4>
+                            <h3 class="quiz-title padd-15">5. Quelle propriété CSS est utilisée pour changer la couleur
+                                du texte ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span>
+                                            background-color </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> font-color </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> text-color </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> color </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form5')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form6">
+                            <h4 class="quiz-sub-title padd-15">CSS</h4>
+                            <h3 class="quiz-title padd-15">6. Que fait la déclaration CSS flex: 0 0 100% ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> L'élément prend
+                                            toute la largeur de son conteneur et peut s'agrandir ou se rétrécir. </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> L'élément prend
+                                            toute la largeur de son conteneur sans possibilité de s'agrandir ou de se
+                                            rétrécir. </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> L'élément prend
+                                            une largeur de 100px et peut s'agrandir ou se rétrécir.</h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> L'élément prend
+                                            une largeur de 100% et peut se rétrécir mais pas s'agrandir.</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form6')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form7">
+                            <h4 class="quiz-sub-title padd-15">CSS</h4>
+                            <h3 class="quiz-title padd-15">7. Quelle propriété CSS est utilisée pour définir la marge
+                                externe d’un élément ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> padding </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> border </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> margin</h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> spacing</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form7')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form8">
+                            <h4 class="quiz-sub-title padd-15">CSS</h4>
+                            <h3 class="quiz-title padd-15">8. Quelle propriété CSS est utilisée pour ajouter un espace
+                                intérieur dans un élément ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> padding </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> margin </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> border</h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> spacing</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form8')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form9">
+                            <h4 class="quiz-sub-title padd-15">JavaScript</h4>
+                            <h3 class="quiz-title padd-15">9. Quelle est la méthode utilisée pour ajouter un élément à
+                                la fin d'un tableau en JavaScript ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> add() </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> push() </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> insert() </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> append() </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form9')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form10">
+                            <h4 class="quiz-sub-title padd-15">JavaScript</h4>
+                            <h3 class="quiz-title padd-15">10. Quelle méthode est utilisée pour supprimer le premier
+                                élément d'un tableau en JavaScript ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> pop() </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> delete() </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> shift()</h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> remove()</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form10')">Valider</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form11">
+                            <h4 class="quiz-sub-title padd-15">JavaScript/h4>
+                                <h3 class="quiz-title padd-15">11. Quelle est la sortie du code suivant : console.log(0
+                                    === '0'); </h3>
+                                <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                                <div class="row">
+
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="radio" name="check" class="form-control" value="faux">
+                                            <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> true </h4>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="radio" name="check" class="form-control" value="correcte">
+                                            <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> false </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="radio" name="check" class="form-control" value="faux">
+                                            <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> NaN </h4>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="radio" name="check" class="form-control" value="faux">
+                                            <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> undefined
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <button type="button" class="btn" onclick="reponse('form11')">Valider</button>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <div class="quiz-form padd-15" id="form12">
+                            <h4 class="quiz-sub-title padd-15">JavaScript</h4>
+                            <h3 class="quiz-title padd-15">12. Comment déclarer une fonction en JavaScript ?</h3>
+                            <h4 class="quiz-sub-title padd-15">Une seule réponse est correcte.</h4>
+                            <div class="row">
+
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"> <span class="lettre">A. </span> create function
+                                            myFunction() {} </h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="correcte">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">B. </span> func
+                                            myFunction() {} </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">C. </span> def myFunction()
+                                            {}</h4>
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="radio" name="check" class="form-control" value="faux">
+                                        <h4 class="quiz-answer padd-15"><span class="lettre">D. </span> function
+                                            myFunction() {}</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <button type="button" class="btn" onclick="reponse('form12')">Valider</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="quiz-form padd-15" id="final-score" style="display: none;">
+                            <h3 class="quiz-title padd-15" style="font-size: 60px;">Votre score est </h3>
+                            <h4 class="quiz-sub-title padd-15" id="resultat" style="font-size: 40px;">0</h4>
+                            <h4 class="quiz-sub-title padd-15" style="font-size: 40px;"> sur 12 !</h4>
+                            <button type="button" class="btn" onclick="afficherReponsesCorrectes()">Voir la
+                                correction</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row" id="correction" style="display: none;">
+                        <div class="quiz-content padd-15">
+                            <div class="row">
+                                <h2>Liste des réponses correctes du quiz</h2>
+                                <div class="correct-answers">
+                                    <ol>
+                                        <li><strong>Quelle balise permet de créer un lien hypertexte ?</strong> -
+                                            Réponse correcte : <span class="answer">&lt;a&gt;</span></li>
+                                        <li><strong>Quelle balise sert à afficher une image ?</strong> - Réponse
+                                            correcte : <span class="answer">&lt;img&gt;</span></li>
+                                        <li><strong>Quelle est la plus grande balise de titre ?</strong> - Réponse
+                                            correcte : <span class="answer">&lt;h1&gt;</span></li>
+                                        <li><strong>Quelle balise permet de créer une liste non ordonnée ?</strong> -
+                                            Réponse correcte : <span class="answer">&lt;ul&gt;</span></li>
+                                        <li><strong>Quelle propriété CSS permet de changer la couleur du texte
+                                                ?</strong> - Réponse correcte : <span class="answer">color</span></li>
+                                        <li><strong>Que signifie "block" pour un élément HTML ?</strong> - Réponse
+                                            correcte : <span class="answer">L'élément prend toute la largeur de son
+                                                conteneur sans possibilité de s'agrandir ou de se rétrécir.</span></li>
+
+                                        <li><strong> Quelle propriété CSS est utilisée pour définir la marge externe
+                                                d’un élément ?</strong> - Réponse correcte : <span class="answer">C.
+                                                margin</span></li>
+                                        <li><strong> Quelle propriété CSS est utilisée pour ajouter un espace intérieur
+                                                dans un élément ?</strong> - Réponse correcte : <span class="answer">A.
+                                                padding</span></li>
+
+                                        <li><strong> Quelle est la méthode utilisée pour ajouter un élément à la fin
+                                                d'un tableau en JavaScript ?</strong> - Réponse correcte : <span
+                                                class="answer">B. push()</span></li>
+                                        <li><strong> Quelle méthode est utilisée pour supprimer le premier élément d'un
+                                                tableau en JavaScript ?</strong> - Réponse correcte : <span
+                                                class="answer">C. shift()</span></li>
+                                        <li><strong> Quelle est la sortie du code suivant : console.log(0 ===
+                                                '0');</strong> - Réponse correcte : <span class="answer">B. false</span>
+                                        </li>
+                                        <li><strong> Comment déclarer une fonction en JavaScript ?</strong> - Réponse
+                                            correcte : <span class="answer">D. function myFunction() {}</span></li>
+                                    </ol>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+            <!------------- Quiz Section End ------------------>
+
+
+           
+
+
+        </div>
+        <!------------------ Main Content End -------------------------------------->
+    </div>
+    <!------------------ Main Container End ----------------------------------------------------------------------------------->
+
+
+    <!-- Style Switcher Start -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- Style Switcher End -->
+
+    <!----------- JS Files ------------>
+
+    <script src="../js/style-switcher.js"></script>
+    <script src="../js/quiz.js"></script>
+</body>
+
+</html>
